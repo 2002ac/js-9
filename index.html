@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java-script task 9</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="mode.css">
+    <link rel="stylesheet" href="mode.scss">
+</head>
+<body>
+    <div class="seh-1">
+        <div class="seh-1-top">
+            <i class="bi bi-book-half"></i>
+              <h1>
+                  <label class="my">My</label>
+                  <label class="book">Book</label>
+                  <label class="list">List</label>
+              </h1>
+        </div>
+       
+         <div class="seh-1-center">
+             <p>Title</p>
+             <input type="text" id="Title" placeholder="Compound effect">
+             <p>Author</p>
+             <input type="text" id="author" placeholder="Call Newport">
+             <p>Color</p>
+             <input type="color" id="color">
+             <p></p>
+         </div>
+          
+         <div class="seh-1-bottom">
+            <div>
+                <input class="radio1"type="radio" id="Phscology" name="type1" value="Phscology">
+                <label for="Phscology">Phscology</label>
+            </div>
+            <div>
+                <input class="radio1"type="radio" id="Drama" name="type1" value="Drama">
+                <label for="Drama">Drama</label>
+            </div>
+            <div>
+                <input class="radio1"type="radio" id="Motivation" name="type1" value="Motivation">
+                <label for="Motivation">Motivation</label>
+            </div>
+         </div>
+        
+         <div class="seh-1-end">
+             <button onclick="addBook()">Add Book</button>
+         
+             <table id="bookTable">
+         
+                 <tr>
+                     <th>Title</th>
+                     <th>Author</th>
+                     <th>Type</th>
+                 </tr>
+         
+             </table>
+         </div>
+
+    </div>
+
+    <script src="mode.js"></script>
+</body>
+</html>
